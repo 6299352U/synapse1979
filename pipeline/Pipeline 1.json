@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Azure Function1",
+				"name": "TeamsAlert",
 				"type": "AzureFunctionActivity",
 				"dependsOn": [],
 				"policy": {
@@ -23,7 +23,7 @@
 					"method": "POST"
 				},
 				"linkedServiceName": {
-					"referenceName": "AzureFunction1",
+					"referenceName": "AzureFunctionGrimLink",
 					"type": "LinkedServiceReference"
 				}
 			}
